@@ -13,7 +13,6 @@ A simple Student Management System built using PHP and MySQL.
 ### 2. Extract and Copy
 
 - Extract the ZIP file.
-- Copy the `studentms` folder.
 
 ### 3. Paste into Root Directory
 
