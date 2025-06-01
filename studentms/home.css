@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.nav1 {
+  width: 100%;
+  /* background-image:linear-gradient(to right, #251d5f,#0cc8bf);  */
+  background-color: #251d5f;
+}
+.navbar-brand {
+  color: #d4e6e7 !important;
+}
+.nav-link {
+  color: #d4e6e7 !important;
+}
+.nav-link:hover {
+  color: #e06263 !important;
+}
+.navbar-brand:hover {
+  color: #e06263 !important;
+}
+#img1 {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://thumbs.dreamstime.com/b/children-playing-together-toddler-kid-baby-play-blocks-educational-toys-preschool-kindergarten-child-little-boys-84680323.jpg");
+  background-attachment: fixed;
+}
+.fon {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #0cc8bf;
+}
+.cards {
+  margin-left: 50px;
+  margin-right: 0px;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(50px); /* Initially move the cards down */
+  transition: opacity 1s ease, transform 1s ease; /* Add transition for smooth reveal */
+}
+.card-box {
+  height: 400px;
+  width: 270px;
+  display: inline-block;
+  justify-content: space-around;
+  margin: 10px;
+  text-align: center;
+  color: #d4e6e7;
+}
+#img2 {
+  float: left;
+  max-width: 400px;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.wrapper {
+  width: 90%;
+}
+.text-box {
+  color: #251d5f;
+}
+.text-box p {
+  margin-left: 10px;
+  justify-content: space-evenly;
+  text-align: justify;
+  margin-right: 8px;
+}
+.card2 {
+  height: 600px;
+
+  background-color: #412ce1d7;
+}
+
+.flip-container {
+  perspective: 1000px;
+  display: inline-block;
+  justify-content: space-around;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+.flip-card {
+  width: 220px;
+  height: 220px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding-top: 10px;
+}
+.flip-card:hover {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: #251d5f;
+  background: #aed7d9;
+}
+.flip-card-back {
+  background-color: #aed7d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+.flip-card-front img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+.card3 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+}
+.card-box3 {
+  width: 45%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.card-box3 h1 {
+  margin-top: 0;
+  color: #333333;
+}
+.card-box3 p,
+.card-box3 ul {
+  margin-bottom: 20px;
+}
+.card-box3 ul {
+  padding-left: 20px;
+}
+.card-box3 ul li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+
+.card-box3 input[type="text"],
+.card-box3 input[type="email"],
+.card-box3 input[type="tel"],
+.card-box3 textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.card-box3 textarea {
+  resize: vertical;
+  height: 100px;
+}
+.card-box3 button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 40%;
+  transition: background-color 0.3s;
+}
+.card-box3 button:hover {
+  background-color: #0056b3;
+}
+#copyright {
+  margin-top: 15px;
+}
+.footer {
+  background-color: #251d5f;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer a:hover {
+  color: #e06263 !important;
+}
